@@ -1,0 +1,110 @@
+/* Fonts Declaration */
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/poppins-light.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url(fonts/poppins-light-italic.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/poppins-regular.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/poppins-medium.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/poppins-semi-bold.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/poppins-bold.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-display: swap;
+  src: url(fonts/poppins-ExtraBold.woff);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-display: swap;
+  src: url(fonts/poppins-black.woff);
+}
+
+/* RESAT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #4e65ff, #92effd);
+}
+
+/* ELEMENTS */
+.box {
+  background: #fff;
+  padding: 15px 40px;
+  box-shadow: 15px 15px rgba(0, 0, 0, 0.1);
+}
+.box h3 {
+  position: relative;
+  font-size: 1.25em;
+  color: #ccc;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.box #form {
+  position: relative;
+}
+.box #form #email {
+  width: 400px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #333;
+  color: #333;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.box .input__box {
+  position: relative;
+}
+
+#text {
+  display: block;
+  color: #999;
+  font-weight: 500;
+  padding: 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75em;
+}
